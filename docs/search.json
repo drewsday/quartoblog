@@ -40,5 +40,33 @@
     "title": "Quarto Basics",
     "section": "Another Section",
     "text": "Another Section\nThis is going to be something else, I’m just not sure what it will be."
+  },
+  {
+    "objectID": "posts/hello/hello.html#github-gists",
+    "href": "posts/hello/hello.html#github-gists",
+    "title": "Quarto Basics",
+    "section": "GitHub gists",
+    "text": "GitHub gists\nHere is a gist I wrote:\n(Uses the shortcode: )\n\nGists can be pretty handy."
+  },
+  {
+    "objectID": "posts/hello/hello.html#twitter",
+    "href": "posts/hello/hello.html#twitter",
+    "title": "Quarto Basics",
+    "section": "Twitter",
+    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-30004\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!"
+  },
+  {
+    "objectID": "posts/hello/hello.html#vimeo",
+    "href": "posts/hello/hello.html#vimeo",
+    "title": "Quarto Basics",
+    "section": "Vimeo",
+    "text": "Vimeo\nA video from Vimeo:\n(Uses the shortcode: )\n   \nIt’s very beautiful."
+  },
+  {
+    "objectID": "posts/hello/hello.html#youtube",
+    "href": "posts/hello/hello.html#youtube",
+    "title": "Quarto Basics",
+    "section": "Youtube",
+    "text": "Youtube\nThis is a video I created for rstudio::conf(2022).\n(Uses the shortcode: )\n\nThe video is about my R4Pi project."
   }
 ]
