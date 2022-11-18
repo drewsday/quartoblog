@@ -53,7 +53,7 @@
     "href": "posts/hello/hello.html#twitter",
     "title": "Quarto Basics",
     "section": "Twitter",
-    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-30004\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!"
+    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-46182\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!\n\nAbove doesn’t work.\nTry straight embed:\n\n\nDividing a circle into 7 equal area slices 🍕Equality in Maths is just beauuutiful 💗 pic.twitter.com/WWTPYgwFq3\n\n— Ayliean (@Ayliean) November 17, 2022"
   },
   {
     "objectID": "posts/hello/hello.html#vimeo",
