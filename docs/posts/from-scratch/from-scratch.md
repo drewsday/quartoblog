@@ -29,7 +29,7 @@ flesh is heir to: ’tis a consummation Devoutly to be wish’d.
 
 Now I want to try a numbered list: 1. Bread 1. Milk 1. Flour 1.
 Butter 1. Cheese 1. Havarti 1. Mozzarella 1. Gruyere 1. Beer 1.
-Budweiser 1. New Belgium 1. Fat Tire 1. Voodoo Ranger 1. Voodoo Ranger
+Budweiser 1. New Belgium 1. Fat Tire 2. Voodoo Ranger 1. Voodoo Ranger
 IPA 1. Voodoo Ranger Imperial 1. Voodoo Ranger Juicy Haze 1. Old
 Tuffy 1. Trippel 1. 1554 1. Coors
 
