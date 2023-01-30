@@ -20,18 +20,35 @@ Item 4
 Let’s try the other type of bulleted list: - Item a - Item b - Item 3 -
 Item d
 
-What if I really wanted to quote something here: \> To be, or not to be,
+What if I really wanted to quote something here: \
+> To be, or not to be,
 that is the question: Whether ’tis nobler in the mind to suffer The
 slings and arrows of outrageous fortune, Or to take arms against a sea
 of troubles And by opposing end them. To die—to sleep, No more; and by a
 sleep to say we end The heart-ache and the thousand natural shocks That
 flesh is heir to: ’tis a consummation Devoutly to be wish’d.
 
-Now I want to try a numbered list: 1. Bread 1. Milk 1. Flour 1.
-Butter 1. Cheese 1. Havarti 1. Mozzarella 1. Gruyere 1. Beer 1.
-Budweiser 1. New Belgium 1. Fat Tire 1. Voodoo Ranger 1. Voodoo Ranger
-IPA 1. Voodoo Ranger Imperial 1. Voodoo Ranger Juicy Haze 1. Old
-Tuffy 1. Trippel 1. 1554 1. Coors
+Now I want to try a numbered list: 
+1. Bread 
+1. Milk 
+1. Flour 
+1. Butter 
+1. Cheese 
+  1. Havarti 
+  1. Mozzarella 
+  1. Gruyere 
+1. Beer 
+  1. Budweiser 
+  1. New Belgium 
+    1. Fat Tire 
+    1. Voodoo Ranger 
+      1. Voodoo Ranger IPA 
+      1. Voodoo Ranger Imperial 
+      1. Voodoo Ranger Juicy Haze 
+    1. Old Tuffy 
+    1. Trippel 
+    1. 1554 
+  1. Coors
 
 ### Subheading test
 
