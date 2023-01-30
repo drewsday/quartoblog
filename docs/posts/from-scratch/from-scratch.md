@@ -14,15 +14,20 @@ Next, I really want to just test my understanding of markdown.
 
 ## Subheading test
 
-Let’s make a bulleted list: - Item 1 - Item 2 - Item c - There is no
-Item 4
+Let’s make a bulleted list: 
+- Item 1 
+- Item 2 
+- Item c 
+- There is no Item 4
 
-Let’s try the other type of bulleted list: - Item a - Item b - Item 3 -
-Item d
+Let’s try the other type of bulleted list:
+ - Item a
+ - Item b
+ - Item 3
+ - Item d
 
 What if I really wanted to quote something here: \
-> To be, or not to be,
-that is the question: Whether ’tis nobler in the mind to suffer The
+> To be, or not to be, that is the question: Whether ’tis nobler in the mind to suffer The
 slings and arrows of outrageous fortune, Or to take arms against a sea
 of troubles And by opposing end them. To die—to sleep, No more; and by a
 sleep to say we end The heart-ache and the thousand natural shocks That
