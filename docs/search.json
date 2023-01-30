@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "quartoblog",
     "section": "",
-    "text": "Can I make a post to the gh-pages blog from scratch?\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Basics\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Quarto Basics\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nJan 29, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Basics\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -72,7 +72,7 @@
   {
     "objectID": "posts/from-scratch/from-scratch.html",
     "href": "posts/from-scratch/from-scratch.html",
-    "title": "quartoblog",
+    "title": "Quarto Basics",
     "section": "",
     "text": "This is really a test as to whether or not I ended up setting up the blog with gh-pages correctly."
   }
