@@ -2,7 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/from-scratch/from-scratch.md",
+      "/posts/march16-test/march16-test.md",
+      "/posts/from-scratch/from-scratch.html",
       "/posts/post-with-code/index.html",
       "/posts/hello/hello.html",
       "/posts/welcome/index.html"

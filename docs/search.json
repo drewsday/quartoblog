@@ -14,20 +14,6 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "quartoblog",
-    "section": "",
-    "text": "Quarto Testing\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nJan 29, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Basics\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
     "objectID": "posts/hello/hello.html",
     "href": "posts/hello/hello.html",
     "title": "Quarto Basics",
@@ -53,7 +39,7 @@
     "href": "posts/hello/hello.html#twitter",
     "title": "Quarto Basics",
     "section": "Twitter",
-    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-46182\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!\n\nAbove doesn’t work.\nTry straight embed:\n\n\nDividing a circle into 7 equal area slices 🍕Equality in Maths is just beauuutiful 💗 pic.twitter.com/WWTPYgwFq3\n\n— Ayliean (@Ayliean) November 17, 2022"
+    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-83212\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!\n\nAbove doesn’t work.\nTry straight embed:\n\n\nDividing a circle into 7 equal area slices 🍕Equality in Maths is just beauuutiful 💗 pic.twitter.com/WWTPYgwFq3\n\n— Ayliean (@Ayliean) November 17, 2022"
   },
   {
     "objectID": "posts/hello/hello.html#vimeo",
@@ -70,17 +56,45 @@
     "text": "Youtube\nThis is a video I created for rstudio::conf(2022).\n(Uses the shortcode: )\n\nThe video is about my R4Pi project."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quartoblog",
+    "section": "",
+    "text": "March 16 Quarto Testing\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nMar 16, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nQuarto Testing\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nJan 29, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nQuarto Basics\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
     "objectID": "posts/from-scratch/from-scratch.html",
     "href": "posts/from-scratch/from-scratch.html",
     "title": "Quarto Testing",
     "section": "",
-    "text": "(This is really a test as to whether or not I ended up setting up the blog with gh-pages correctly.)"
+    "text": "(This is really a test as to whether or not I ended up setting up the blog with gh-pages correctly.) I’m clearly not getting something really basic here. Does this change the html?\nOkay, I think I’ve got the html rendering except for the bulleted lists. Can I make this go live on github pages?"
   },
   {
     "objectID": "posts/from-scratch/from-scratch.html#subheading-test",
     "href": "posts/from-scratch/from-scratch.html#subheading-test",
     "title": "Quarto Testing",
     "section": "Subheading test",
-    "text": "Subheading test\nLet’s make a bulleted list: - Item 1 - Item The Second - Item c - There is no Item 4\nLet’s try the other type of bulleted list: - Item a - Item b - Item 3 - Item d\nWhat if I really wanted to quote something here: > To be, or not to be, that is the question: Whether ’tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles And by opposing end them. To die—to sleep, No more; and by a sleep to say we end The heart-ache and the thousand natural shocks That flesh is heir to: ’tis a consummation Devoutly to be wish’d.\nNow I want to try a numbered list: 1. Bread 1. Milk 1. Flour 1. Butter 1. Cheese 1. Havarti 1. Mozzarella 1. Gruyere 1. Beer 1. Budweiser 1. New Belgium 1. Fat Tire 2. Voodoo Ranger 1. Voodoo Ranger IPA 1. Voodoo Ranger Imperial 1. Voodoo Ranger Juicy Haze 1. Old Tuffy 1. Trippel 1. 1554 1. Coors\n\nSubheading test\nIf I was clever, I would insert an image here as a test.\n\n\n\nIMG_5954.jpeg\n\n\n\n4th level subheading test\nWhat else can I test here?  I can make things bold or italic.  I can insert an equation: \\(\\sum \\vec{F} = m\\vec{a}\\)"
+    "text": "Subheading test\nLet’s make a bulleted list: - Item 1 - Item The Second - Item iii - There is no Item 4 - Five just came alive!\nLet’s try the other type of bulleted list: + Item a + Item b + Item 3 + Item d\nWhat if I really wanted to quote something here: &gt; To be, or not to be, that is the question: Whether ’tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles And by opposing end them. To die—to sleep, No more; and by a sleep to say we end The heart-ache and the thousand natural shocks That flesh is heir to: ’tis a consummation Devoutly to be wish’d.\nNow I want to try a numbered list: 1. Bread 1. Milk 1. Flour 1. Butter 1. Cheese 1. Havarti 1. Mozzarella 1. Gruyere 1. Beer 1. Budweiser 1. New Belgium 1. Fat Tire 2. Voodoo Ranger 1. Voodoo Ranger IPA 1. Voodoo Ranger Imperial 1. Voodoo Ranger Juicy Haze 1. Old Tuffy 1. Trippel 1. 1554 1. Coors\n\nSubheading test\nIf I was clever, I would insert an image here as a test.\n\n\n\nIMG_5954.jpeg\n\n\n\n4th level subheading test\nWhat else can I test here?  I can make things bold or italic.  I can insert an equation: \\(\\sum \\vec{F} = m\\vec{a}\\)"
+  },
+  {
+    "objectID": "posts/march16-test/march16-test.html",
+    "href": "posts/march16-test/march16-test.html",
+    "title": "March 16 Quarto Testing",
+    "section": "",
+    "text": "This is another test.\n\nList item\nSecond item\nThird"
+  },
+  {
+    "objectID": "posts/march16-test/march16-test.html#back-at-it",
+    "href": "posts/march16-test/march16-test.html#back-at-it",
+    "title": "March 16 Quarto Testing",
+    "section": "",
+    "text": "This is another test.\n\nList item\nSecond item\nThird"
   }
 ]
