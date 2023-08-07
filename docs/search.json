@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "quartoblog",
     "section": "",
-    "text": "March 16 Quarto Testing\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nMar 16, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nQuarto Testing\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nJan 29, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nQuarto Basics\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Notes to Self for blog posting\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nMarch 16 Quarto Testing\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nMar 16, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nQuarto Testing\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nJan 29, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nQuarto Basics\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -96,5 +96,12 @@
     "title": "March 16 Quarto Testing",
     "section": "",
     "text": "This is another test.\n\nList item\nSecond item\nThird"
+  },
+  {
+    "objectID": "posts/notes-to-self/notes-to-self.html",
+    "href": "posts/notes-to-self/notes-to-self.html",
+    "title": "Notes to Self for blog posting",
+    "section": "",
+    "text": "How to make a blog post\nThese are note for future me to be able to post to this blog, in case I forget what I am doing.\n\nStart from the Terminal in /Users/amorriso/Documents/GitHub/quartoblog/posts\nRun jupyterlab: python3 -m jupyter lab\nMake a new directory for the new post. Change to that directory.\nMake a new notebook in the empty directory.\nThe first cell must be in “Raw” format. Put the metadata there.\nWrite the post in the jupyter notebook. Along the way you can preview the post by launching preview from a Terminal within jupyter lab: quarto preview notebook.ipynb\nOnce the preview looks right when finished writing the post, go to Github Desktop. Commit the changes and then push to origin. (You should be in the gh-pages branch, but generally you won’t need to know that.)\nWait 30-90 seconds for the page to be live on Quartoblog."
   }
 ]
