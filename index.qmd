@@ -1,5 +1,5 @@
 ---
-title: "quartoblog"
+title: "Drewsday's Ramblings"
 listing:
   contents: posts
   sort: "date desc"
