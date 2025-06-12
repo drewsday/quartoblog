@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Drewsday's Ramblings"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/drewsday
+      - icon: mastodon
+        href: https://scholar.social/@morris
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

@@ -2,12 +2,14 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/another-test/another-test.html",
+      "/posts/summer-2025/hello.html",
       "/posts/almost-there/almost-there.html",
       "/posts/notes-to-self/notes-to-self.html",
       "/posts/march16-test/march16-test.md",
       "/posts/from-scratch/from-scratch.html",
-      "/posts/post-with-code/index.html",
       "/posts/hello/hello.html",
+      "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
     ]
   }

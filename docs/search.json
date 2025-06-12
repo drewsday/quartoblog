@@ -18,7 +18,7 @@
     "href": "posts/hello/hello.html",
     "title": "Quarto Basics",
     "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "posts/hello/hello.html#another-section",
@@ -39,7 +39,7 @@
     "href": "posts/hello/hello.html#twitter",
     "title": "Quarto Basics",
     "section": "Twitter",
-    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-83212\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!\n\nAbove doesn’t work.\nTry straight embed:\n\n\nDividing a circle into 7 equal area slices 🍕Equality in Maths is just beauuutiful 💗 pic.twitter.com/WWTPYgwFq3\n\n— Ayliean (@Ayliean) November 17, 2022"
+    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-78635\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!\n\nAbove doesn’t work.\nTry straight embed:\n\n\nDividing a circle into 7 equal area slices 🍕Equality in Maths is just beauuutiful 💗 pic.twitter.com/WWTPYgwFq3\n\n— Ayliean (@Ayliean) November 17, 2022"
   },
   {
     "objectID": "posts/hello/hello.html#vimeo",
@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "Drewsday’s Ramblings",
     "section": "",
-    "text": "Notes to Self for blog posting\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nNotes to Self for blog posting\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nMarch 16 Quarto Testing\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nMar 16, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nQuarto Testing\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nJan 29, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nQuarto Basics\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Just trying the basics\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nJun 12, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nOpening up the blog again?\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nJun 12, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nNotes to Self for blog posting\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nNotes to Self for blog posting\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 16 Quarto Testing\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nMar 16, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Testing\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nJan 29, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Basics\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -117,5 +117,26 @@
     "title": "Notes to Self for blog posting",
     "section": "Testing Mastodon",
     "text": "Testing Mastodon\n  \n         \nDid it work? Yes!\nCan I see this?"
+  },
+  {
+    "objectID": "posts/another-test/another-test.html",
+    "href": "posts/another-test/another-test.html",
+    "title": "Just trying the basics",
+    "section": "",
+    "text": "Heading\nAnd some text!"
+  },
+  {
+    "objectID": "posts/hello/hello.html#polar-axis",
+    "href": "posts/hello/hello.html#polar-axis",
+    "title": "Quarto Basics",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "posts/hello/hello.html#loom-example-removed",
+    "href": "posts/hello/hello.html#loom-example-removed",
+    "title": "Quarto Basics",
+    "section": "Loom example removed",
+    "text": "Loom example removed\nI removed a non-working example."
   }
 ]
