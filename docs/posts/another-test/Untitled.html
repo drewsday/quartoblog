@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>march16-test – Drewsday's Ramblings</title>
+<title>untitled – Drewsday's Ramblings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +20,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,17 +104,17 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Drewsday’s Ramblings</span>
     </a>
   </div>
@@ -90,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -111,31 +146,72 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<section id="march-16-quarto-testing" class="level1">
-<h1>March 16 Quarto Testing</h1>
-<p>Andrew Morrison 2023-03-16</p>
-<section id="back-at-it" class="level2">
-<h2 class="anchored" data-anchor-id="back-at-it">Back at it</h2>
-<p>This is another test.</p>
-<ul>
-<li>List item</li>
-<li>Second item</li>
-<li>Third</li>
-</ul>
+<div id="01473418-d034-49d3-a887-17cbff06622d" class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> svgwrite</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a new SVG drawing</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>dwg <span class="op">=</span> svgwrite.Drawing(<span class="st">'christmas_fireplace_ornament.svg'</span>, profile<span class="op">=</span><span class="st">'tiny'</span>, size<span class="op">=</span>(<span class="st">"200px"</span>, <span class="st">"250px"</span>))</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw the hanging loop</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>dwg.add(dwg.circle(center<span class="op">=</span>(<span class="st">"100"</span>, <span class="st">"20"</span>), r<span class="op">=</span><span class="st">"10"</span>, fill<span class="op">=</span><span class="st">"silver"</span>, stroke<span class="op">=</span><span class="st">"black"</span>))</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw the ornament base (a rounded rectangle)</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>dwg.add(dwg.rect(insert<span class="op">=</span>(<span class="st">"25"</span>, <span class="st">"40"</span>), size<span class="op">=</span>(<span class="st">"150"</span>, <span class="st">"190"</span>), rx<span class="op">=</span><span class="st">"15"</span>, ry<span class="op">=</span><span class="st">"15"</span>, fill<span class="op">=</span><span class="st">"#f5f5dc"</span>, stroke<span class="op">=</span><span class="st">"black"</span>))</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw the fireplace</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>dwg.add(dwg.rect(insert<span class="op">=</span>(<span class="st">"50"</span>, <span class="st">"100"</span>), size<span class="op">=</span>(<span class="st">"100"</span>, <span class="st">"80"</span>), fill<span class="op">=</span><span class="st">"#8b4513"</span>, stroke<span class="op">=</span><span class="st">"black"</span>))</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw the fire</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>dwg.add(dwg.polygon(points<span class="op">=</span>[(<span class="st">"100"</span>, <span class="st">"160"</span>), (<span class="st">"90"</span>, <span class="st">"180"</span>), (<span class="st">"100"</span>, <span class="st">"170"</span>), (<span class="st">"110"</span>, <span class="st">"180"</span>)], fill<span class="op">=</span><span class="st">"orange"</span>, stroke<span class="op">=</span><span class="st">"red"</span>))</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw the mantle</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>dwg.add(dwg.rect(insert<span class="op">=</span>(<span class="st">"45"</span>, <span class="st">"90"</span>), size<span class="op">=</span>(<span class="st">"110"</span>, <span class="st">"10"</span>), fill<span class="op">=</span><span class="st">"#a0522d"</span>, stroke<span class="op">=</span><span class="st">"black"</span>))</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw stockings</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>stocking_positions <span class="op">=</span> [<span class="dv">60</span>, <span class="dv">95</span>, <span class="dv">130</span>]</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> x <span class="kw">in</span> stocking_positions:</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    dwg.add(dwg.rect(insert<span class="op">=</span>(<span class="ss">f"</span><span class="sc">{</span>x<span class="sc">}</span><span class="ss">px"</span>, <span class="st">"60"</span>), size<span class="op">=</span>(<span class="st">"15"</span>, <span class="st">"25"</span>), fill<span class="op">=</span><span class="st">"red"</span>, stroke<span class="op">=</span><span class="st">"black"</span>))</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    dwg.add(dwg.rect(insert<span class="op">=</span>(<span class="ss">f"</span><span class="sc">{</span>x<span class="sc">}</span><span class="ss">px"</span>, <span class="st">"60"</span>), size<span class="op">=</span>(<span class="st">"15"</span>, <span class="st">"5"</span>), fill<span class="op">=</span><span class="st">"white"</span>, stroke<span class="op">=</span><span class="st">"black"</span>))</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the SVG file</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>dwg.save()</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"SVG file 'christmas_fireplace_ornament.svg' has been created and saved."</span>)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>SVG file 'christmas_fireplace_ornament.svg' has been created and saved.</code></pre>
+</div>
+</div>
+<div id="3b749ff4-85f2-4453-aab7-cb73c3688f05" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install svgwrite</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Collecting svgwrite
+  Downloading svgwrite-1.4.3-py3-none-any.whl.metadata (8.8 kB)
+Downloading svgwrite-1.4.3-py3-none-any.whl (67 kB)
+Installing collected packages: svgwrite
+Successfully installed svgwrite-1.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>WARNING: Ignoring invalid distribution ~upyterlab (C:\Users\amorriso\AppData\Local\Programs\Python\Python313\Lib\site-packages)
+WARNING: Ignoring invalid distribution ~upyterlab (C:\Users\amorriso\AppData\Local\Programs\Python\Python313\Lib\site-packages)
+WARNING: Ignoring invalid distribution ~upyterlab (C:\Users\amorriso\AppData\Local\Programs\Python\Python313\Lib\site-packages)
+
+[notice] A new release of pip is available: 25.0.1 -&gt; 25.2
+[notice] To update, run: C:\Users\amorriso\AppData\Local\Programs\Python\Python313\python.exe -m pip install --upgrade pip</code></pre>
+</div>
+</div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,21 +1,105 @@
 [
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/what-im-reading/what-im-reading.html",
+    "href": "posts/what-im-reading/what-im-reading.html",
+    "title": "What I’m reading currently",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "I’m going to try to log some of my reading here - what I’m currently reading, what I’ve finished recently, what I might read next. I’m not sure how this will work, but I want to give it a try.\n\nWhat I recently finished reading\n\nGeeky Pedagogy by Jessamyn Neuhaus This was a book club selection for a group of educators that met online every other week to discuss this book. I thought it was a pretty good choice for the book club. This was the last book I finished in 2025"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/summer-2025/hello.html",
+    "href": "posts/summer-2025/hello.html",
+    "title": "Opening up the blog again?",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "posts/summer-2025/hello.html#polar-axis",
+    "href": "posts/summer-2025/hello.html#polar-axis",
+    "title": "Opening up the blog again?",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "posts/from-scratch/from-scratch.html",
+    "href": "posts/from-scratch/from-scratch.html",
+    "title": "Quarto Testing",
+    "section": "",
+    "text": "(This is really a test as to whether or not I ended up setting up the blog with gh-pages correctly.) I’m clearly not getting something really basic here. Does this change the html?\nOkay, I think I’ve got the html rendering except for the bulleted lists. Can I make this go live on github pages?"
+  },
+  {
+    "objectID": "posts/from-scratch/from-scratch.html#subheading-test",
+    "href": "posts/from-scratch/from-scratch.html#subheading-test",
+    "title": "Quarto Testing",
+    "section": "Subheading test",
+    "text": "Subheading test\nLet’s update a bulleted list:\n\nItem 1\nItem The Second\nItem iii\nThere is no Item 4\nFive just came alive!\n\nLet’s try the other type of bulleted list:\n\nItem a\nItem b\nItem 3\nItem d\n\nWhat if I really wanted to quote something here:\n\nTo be, or not to be, that is the question: Whether ’tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles And by opposing end them. To die—to sleep, No more; and by a sleep to say we end The heart-ache and the thousand natural shocks That flesh is heir to: ’tis a consummation Devoutly to be wish’d.\n\nNow I want to try a numbered list:\n\nBread\nMilk\nFlour\nButter\nCheese\n\nHavarti\nMozzarella\nGruyere\n\nBeer\n\nBudweiser\nNew Belgium\n\nFat Tire\nVoodoo Ranger\n\nVoodoo Ranger IPA\nVoodoo Ranger Imperial\nVoodoo Ranger Juicy Haze\n\nOld Tuffy\nTrippel\n1554\n\nCoors\n\n\nTrying the original bulleted list format again:\n\nThis\nis\na\ntest\n\n\nSubheading test\nIf I was clever, I would insert an image here as a test.\n\n\n\nIMG_5954.jpeg\n\n\n\n4th level subheading test\nWhat else can I test here?  I can make things bold or italic.  I can insert an equation: \\(\\sum \\vec{F} = m\\vec{a}\\)\n\n\n\nAnother silly test\nIs the live preview still working?"
+  },
+  {
+    "objectID": "posts/another-test/Untitled.html",
+    "href": "posts/another-test/Untitled.html",
+    "title": "Drewsday's Ramblings",
+    "section": "",
+    "text": "import svgwrite\n\n# Create a new SVG drawing\ndwg = svgwrite.Drawing('christmas_fireplace_ornament.svg', profile='tiny', size=(\"200px\", \"250px\"))\n\n# Draw the hanging loop\ndwg.add(dwg.circle(center=(\"100\", \"20\"), r=\"10\", fill=\"silver\", stroke=\"black\"))\n\n# Draw the ornament base (a rounded rectangle)\ndwg.add(dwg.rect(insert=(\"25\", \"40\"), size=(\"150\", \"190\"), rx=\"15\", ry=\"15\", fill=\"#f5f5dc\", stroke=\"black\"))\n\n# Draw the fireplace\ndwg.add(dwg.rect(insert=(\"50\", \"100\"), size=(\"100\", \"80\"), fill=\"#8b4513\", stroke=\"black\"))\n\n# Draw the fire\ndwg.add(dwg.polygon(points=[(\"100\", \"160\"), (\"90\", \"180\"), (\"100\", \"170\"), (\"110\", \"180\")], fill=\"orange\", stroke=\"red\"))\n\n# Draw the mantle\ndwg.add(dwg.rect(insert=(\"45\", \"90\"), size=(\"110\", \"10\"), fill=\"#a0522d\", stroke=\"black\"))\n\n# Draw stockings\nstocking_positions = [60, 95, 130]\nfor x in stocking_positions:\n    dwg.add(dwg.rect(insert=(f\"{x}px\", \"60\"), size=(\"15\", \"25\"), fill=\"red\", stroke=\"black\"))\n    dwg.add(dwg.rect(insert=(f\"{x}px\", \"60\"), size=(\"15\", \"5\"), fill=\"white\", stroke=\"black\"))\n\n# Save the SVG file\ndwg.save()\n\nprint(\"SVG file 'christmas_fireplace_ornament.svg' has been created and saved.\")\n\n\nSVG file 'christmas_fireplace_ornament.svg' has been created and saved.\n\n\n\n!pip install svgwrite\n\nCollecting svgwrite\n  Downloading svgwrite-1.4.3-py3-none-any.whl.metadata (8.8 kB)\nDownloading svgwrite-1.4.3-py3-none-any.whl (67 kB)\nInstalling collected packages: svgwrite\nSuccessfully installed svgwrite-1.4.3\n\n\nWARNING: Ignoring invalid distribution ~upyterlab (C:\\Users\\amorriso\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages)\nWARNING: Ignoring invalid distribution ~upyterlab (C:\\Users\\amorriso\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages)\nWARNING: Ignoring invalid distribution ~upyterlab (C:\\Users\\amorriso\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages)\n\n[notice] A new release of pip is available: 25.0.1 -&gt; 25.2\n[notice] To update, run: C:\\Users\\amorriso\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -m pip install --upgrade pip"
+  },
+  {
+    "objectID": "posts/almost-there/almost-there.html",
+    "href": "posts/almost-there/almost-there.html",
+    "title": "Notes to Self for blog posting",
+    "section": "",
+    "text": "When composing posts in the quarto blog here are some things I seem to frequently forget:\n\nLists have to be started with a blank line in the Jupyter notebook\nI should be able to drag and drop an image file into the markdown cell and the proper markdown formating will be auto-generated. See below:\n\n\n\n\nFinished RAGBRAI 2023 with my support team!"
+  },
+  {
+    "objectID": "posts/almost-there/almost-there.html#testing-mastodon",
+    "href": "posts/almost-there/almost-there.html#testing-mastodon",
+    "title": "Notes to Self for blog posting",
+    "section": "Testing Mastodon",
+    "text": "Testing Mastodon\n  \n         \nDid it work? Yes!\nCan I see this?"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Drewsday’s Ramblings",
+    "section": "",
+    "text": "What I’m reading currently\n\n\n\nreading\n\n\n\n\n\n\n\n\n\nJun 19, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nHow does one follow sports in 2025?\n\n\n\nrandom thoughts\n\n\n\n\n\n\n\n\n\nJun 18, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nJust trying the basics\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nJun 12, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nOpening up the blog again?\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nJun 12, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nNotes to Self for blog posting\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nNotes to Self for blog posting\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 16 Quarto Testing\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nMar 16, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Testing\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nJan 29, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Basics\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/another-test/another-test.html",
+    "href": "posts/another-test/another-test.html",
+    "title": "Just trying the basics",
+    "section": "",
+    "text": "And some text!\n\n\nThis was added on 9/9/2025."
+  },
+  {
+    "objectID": "posts/another-test/another-test.html#adding-something-new",
+    "href": "posts/another-test/another-test.html#adding-something-new",
+    "title": "Just trying the basics",
+    "section": "",
+    "text": "This was added on 9/9/2025."
+  },
+  {
+    "objectID": "posts/following-sports-in-2025/following-sports-in-2025.html",
+    "href": "posts/following-sports-in-2025/following-sports-in-2025.html",
+    "title": "How does one follow sports in 2025?",
+    "section": "",
+    "text": "I read this interesting piece in the New York Times recently about the cost of paying for all the streaming platforms necessary to follow sports in the year 2025.\nThis article really resonated with me, as I find it more and more difficult to pay attention to the teams that I’ve followed my whole life. I end up wondering how it will be possible for our son to develop into a fan of any of these teams when we can barely find any sports to play in the house. I’d love to see more Cubs games, but we don’t have cable anymore, and it seems like an impossible task to figure out where each game is streaming. In the end, I usually just check box scores on my phone and see random highlights on Facebook. This is not a recipe for long-term or generational devotion to a team."
   },
   {
     "objectID": "posts/hello/hello.html",
     "href": "posts/hello/hello.html",
+    "title": "Quarto Basics",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "posts/hello/hello.html#polar-axis",
+    "href": "posts/hello/hello.html#polar-axis",
     "title": "Quarto Basics",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
@@ -35,11 +119,18 @@
     "text": "GitHub gists\nHere is a gist I wrote:\n(Uses the shortcode: )\n\nGists can be pretty handy."
   },
   {
+    "objectID": "posts/hello/hello.html#loom-example-removed",
+    "href": "posts/hello/hello.html#loom-example-removed",
+    "title": "Quarto Basics",
+    "section": "Loom example removed",
+    "text": "Loom example removed\nI removed a non-working example."
+  },
+  {
     "objectID": "posts/hello/hello.html#twitter",
     "href": "posts/hello/hello.html#twitter",
     "title": "Quarto Basics",
     "section": "Twitter",
-    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-78635\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!\n\nAbove doesn’t work.\nTry straight embed:\n\n\nDividing a circle into 7 equal area slices 🍕Equality in Maths is just beauuutiful 💗 pic.twitter.com/WWTPYgwFq3\n\n— Ayliean (@Ayliean) November 17, 2022"
+    "text": "Twitter\nHere is a tweet that I tweeted on Twitter:\n(Uses the shortcode: )\n\n\n;document.getElementById(\"tweet-83006\").innerHTML = tweet[\"html\"];\nDuke Caboom is pretty great!\n\nAbove doesn’t work.\nTry straight embed:\n\n\nDividing a circle into 7 equal area slices 🍕Equality in Maths is just beauuutiful 💗 pic.twitter.com/WWTPYgwFq3\n\n— Ayliean (@Ayliean) November 17, 2022"
   },
   {
     "objectID": "posts/hello/hello.html#vimeo",
@@ -56,48 +147,6 @@
     "text": "Youtube\nThis is a video I created for rstudio::conf(2022).\n(Uses the shortcode: )\n\nThe video is about my R4Pi project."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Drewsday’s Ramblings",
-    "section": "",
-    "text": "What I’m reading currently\n\n\n\nreading\n\n\n\n\n\n\n\n\n\nJun 19, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nHow does one follow sports in 2025?\n\n\n\nrandom thoughts\n\n\n\n\n\n\n\n\n\nJun 18, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nJust trying the basics\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nJun 12, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nOpening up the blog again?\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nJun 12, 2025\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nNotes to Self for blog posting\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nNotes to Self for blog posting\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 16 Quarto Testing\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nMar 16, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Testing\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nJan 29, 2023\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Basics\n\n\n\ntest\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nAndrew Morrison\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "posts/from-scratch/from-scratch.html",
-    "href": "posts/from-scratch/from-scratch.html",
-    "title": "Quarto Testing",
-    "section": "",
-    "text": "(This is really a test as to whether or not I ended up setting up the blog with gh-pages correctly.) I’m clearly not getting something really basic here. Does this change the html?\nOkay, I think I’ve got the html rendering except for the bulleted lists. Can I make this go live on github pages?"
-  },
-  {
-    "objectID": "posts/from-scratch/from-scratch.html#subheading-test",
-    "href": "posts/from-scratch/from-scratch.html#subheading-test",
-    "title": "Quarto Testing",
-    "section": "Subheading test",
-    "text": "Subheading test\nLet’s update a bulleted list:\n\nItem 1\nItem The Second\nItem iii\nThere is no Item 4\nFive just came alive!\n\nLet’s try the other type of bulleted list:\n\nItem a\nItem b\nItem 3\nItem d\n\nWhat if I really wanted to quote something here:\n\nTo be, or not to be, that is the question: Whether ’tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles And by opposing end them. To die—to sleep, No more; and by a sleep to say we end The heart-ache and the thousand natural shocks That flesh is heir to: ’tis a consummation Devoutly to be wish’d.\n\nNow I want to try a numbered list:\n\nBread\nMilk\nFlour\nButter\nCheese\n\nHavarti\nMozzarella\nGruyere\n\nBeer\n\nBudweiser\nNew Belgium\n\nFat Tire\nVoodoo Ranger\n\nVoodoo Ranger IPA\nVoodoo Ranger Imperial\nVoodoo Ranger Juicy Haze\n\nOld Tuffy\nTrippel\n1554\n\nCoors\n\n\nTrying the original bulleted list format again:\n\nThis\nis\na\ntest\n\n\nSubheading test\nIf I was clever, I would insert an image here as a test.\n\n\n\nIMG_5954.jpeg\n\n\n\n4th level subheading test\nWhat else can I test here?  I can make things bold or italic.  I can insert an equation: \\(\\sum \\vec{F} = m\\vec{a}\\)\n\n\n\nAnother silly test\nIs the live preview still working?"
-  },
-  {
-    "objectID": "posts/march16-test/march16-test.html",
-    "href": "posts/march16-test/march16-test.html",
-    "title": "March 16 Quarto Testing",
-    "section": "",
-    "text": "This is another test.\n\nList item\nSecond item\nThird"
-  },
-  {
-    "objectID": "posts/march16-test/march16-test.html#back-at-it",
-    "href": "posts/march16-test/march16-test.html#back-at-it",
-    "title": "March 16 Quarto Testing",
-    "section": "",
-    "text": "This is another test.\n\nList item\nSecond item\nThird"
-  },
-  {
     "objectID": "posts/notes-to-self/notes-to-self.html",
     "href": "posts/notes-to-self/notes-to-self.html",
     "title": "Notes to Self for blog posting",
@@ -105,73 +154,17 @@
     "text": "How to make a blog post\nThese are note for future me to be able to post to this blog, in case I forget what I am doing.\n\nStart from the Terminal in /Users/amorriso/Documents/GitHub/quartoblog/posts\nRun jupyterlab: python3 -m jupyter lab\nMake a new directory for the new post. Change to that directory.\nMake a new notebook in the empty directory.\nThe first cell must be in “Raw” format. Put the metadata there.\nWrite the post in the jupyter notebook. Along the way you can preview the post by launching preview from a Terminal within jupyter lab: quarto preview notebook.ipynb\nOnce the preview looks right when finished writing the post, go to Github Desktop. Commit the changes and then push to origin. (You should be in the gh-pages branch, but generally you won’t need to know that.)\nWait 30-90 seconds for the page to be live on Quartoblog."
   },
   {
-    "objectID": "posts/almost-there/almost-there.html",
-    "href": "posts/almost-there/almost-there.html",
-    "title": "Notes to Self for blog posting",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "When composing posts in the quarto blog here are some things I seem to frequently forget:\n\nLists have to be started with a blank line in the Jupyter notebook\nI should be able to drag and drop an image file into the markdown cell and the proper markdown formating will be auto-generated. See below:\n\n\n\n\nFinished RAGBRAI 2023 with my support team!"
+    "text": "This is a post with executable code."
   },
   {
-    "objectID": "posts/almost-there/almost-there.html#testing-mastodon",
-    "href": "posts/almost-there/almost-there.html#testing-mastodon",
-    "title": "Notes to Self for blog posting",
-    "section": "Testing Mastodon",
-    "text": "Testing Mastodon\n  \n         \nDid it work? Yes!\nCan I see this?"
-  },
-  {
-    "objectID": "posts/another-test/another-test.html",
-    "href": "posts/another-test/another-test.html",
-    "title": "Just trying the basics",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "And some text!\n\n\nThis was added on 9/9/2025."
-  },
-  {
-    "objectID": "posts/hello/hello.html#polar-axis",
-    "href": "posts/hello/hello.html#polar-axis",
-    "title": "Quarto Basics",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "posts/hello/hello.html#loom-example-removed",
-    "href": "posts/hello/hello.html#loom-example-removed",
-    "title": "Quarto Basics",
-    "section": "Loom example removed",
-    "text": "Loom example removed\nI removed a non-working example."
-  },
-  {
-    "objectID": "posts/following-sports-in-2025/following-sports-in-2025.html",
-    "href": "posts/following-sports-in-2025/following-sports-in-2025.html",
-    "title": "How does one follow sports in 2025?",
-    "section": "",
-    "text": "I read this interesting piece in the New York Times recently about the cost of paying for all the streaming platforms necessary to follow sports in the year 2025.\nThis article really resonated with me, as I find it more and more difficult to pay attention to the teams that I’ve followed my whole life. I end up wondering how it will be possible for our son to develop into a fan of any of these teams when we can barely find any sports to play in the house. I’d love to see more Cubs games, but we don’t have cable anymore, and it seems like an impossible task to figure out where each game is streaming. In the end, I usually just check box scores on my phone and see random highlights on Facebook. This is not a recipe for long-term or generational devotion to a team."
-  },
-  {
-    "objectID": "posts/another-test/another-test.html#adding-something-new",
-    "href": "posts/another-test/another-test.html#adding-something-new",
-    "title": "Just trying the basics",
-    "section": "",
-    "text": "This was added on 9/9/2025."
-  },
-  {
-    "objectID": "docs/posts/march16-test/march16-test.html",
-    "href": "docs/posts/march16-test/march16-test.html",
-    "title": "March 16 Quarto Testing",
-    "section": "",
-    "text": "Andrew Morrison 2023-03-16\n\n\nThis is another test.\n\nList item\nSecond item\nThird"
-  },
-  {
-    "objectID": "docs/posts/march16-test/march16-test.html#back-at-it",
-    "href": "docs/posts/march16-test/march16-test.html#back-at-it",
-    "title": "March 16 Quarto Testing",
-    "section": "",
-    "text": "This is another test.\n\nList item\nSecond item\nThird"
-  },
-  {
-    "objectID": "posts/what-im-reading/what-im-reading.html",
-    "href": "posts/what-im-reading/what-im-reading.html",
-    "title": "What I’m reading currently",
-    "section": "",
-    "text": "I’m going to try to log some of my reading here - what I’m currently reading, what I’ve finished recently, what I might read next. I’m not sure how this will work, but I want to give it a try.\n\nWhat I recently finished reading"
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]
