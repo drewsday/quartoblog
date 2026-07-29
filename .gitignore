@@ -1,0 +1,23 @@
+# Rendered site. Built and deployed by .github/workflows/publish.yml,
+# so it no longer belongs in the repo.
+/docs/
+
+# Quarto project cache and scratch dirs
+/.quarto/
+
+# Per-document render byproducts (regenerated on every render)
+/posts/**/*_files/
+
+# Jupyter
+.ipynb_checkpoints/
+*.jupyterlab-workspace
+__pycache__/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NOTE: _freeze/ is intentionally NOT ignored. Quarto uses it to reuse stored
+# computational output (posts/_metadata.yml sets freeze: true), which is what
+# lets CI render without a Python/Jupyter toolchain.

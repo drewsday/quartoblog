@@ -1,0 +1,51 @@
+name: Render and publish blog
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Read the repo; publish to Pages via OIDC. No PAT or deploy key needed.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Queue concurrent deploys rather than cancelling one mid-publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out sources
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # Pinned to match the local version that produced _freeze/.
+          # Bump this when you upgrade Quarto locally.
+          version: 1.7.31
+
+      - name: Render site
+        run: quarto render
+
+      # output-dir in _quarto.yml is "docs"
+      - name: Upload rendered site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

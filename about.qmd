@@ -1,19 +1,22 @@
 ---
-title: "About achmorrison"
+title: "About"
 image: profile.jpg
 about:
-  template: jolla
+  template: trestles
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/achmorrison
+    - icon: bluesky
+      text: Bluesky
+      href: https://staging.bsky.app/profile/achmorrison.bsky.social  
+    - icon: mastodon
+      text: Mastodon
+      href: https://scholar.social/@morris
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/andrewchmorrison
     - icon: github
       text: Github
       href: https://github.com/drewsday
 
 ---
 
-About this blog - THIS IS A TEST
+# About this blog

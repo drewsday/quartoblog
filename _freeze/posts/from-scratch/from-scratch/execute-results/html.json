@@ -1,0 +1,11 @@
+{
+  "hash": "d0665824bb64e726e601db2a2df99cb7",
+  "result": {
+    "markdown": "---\ntitle: Quarto Testing\nauthor: Andrew Morrison\ndate: 2023-1-29\ncategories:\n  - test\nformat: gfm\n---\n\n# Can I make a post to the gh-pages blog from scratch?\n\n(This is really a test as to whether or not I ended up setting up the blog with gh-pages correctly.)\n\n# Heading test\n\nNext, I really want to just test my understanding of markdown.\n\n## Subheading test\n\nLet’s make a bulleted list: \n- Item 1 \n- Item The Second \n- Item c \n- There is no Item 4\n\nLet’s try the other type of bulleted list:\n - Item a\n - Item b\n - Item 3\n - Item d\n\nWhat if I really wanted to quote something here:\n> To be, or not to be, that is the question: Whether ’tis nobler in the mind to suffer The\nslings and arrows of outrageous fortune, Or to take arms against a sea\nof troubles And by opposing end them. To die—to sleep, No more; and by a\nsleep to say we end The heart-ache and the thousand natural shocks That\nflesh is heir to: ’tis a consummation Devoutly to be wish’d.\n\nNow I want to try a numbered list: \n1. Bread \n1. Milk \n1. Flour \n1. Butter \n1. Cheese \n    1. Havarti \n    1. Mozzarella \n    1. Gruyere \n1. Beer \n    1. Budweiser \n    1. New Belgium \n        1. Fat Tire \n        2. Voodoo Ranger \n            1. Voodoo Ranger IPA \n            1. Voodoo Ranger Imperial \n            1. Voodoo Ranger Juicy Haze \n        1. Old Tuffy \n        1. Trippel \n        1. 1554 \n    1. Coors\n\n### Subheading test\n\nIf I was clever, I would insert an image here as a test.\n\n![IMG_5954.jpeg](attachment:4fe8f11e-4894-403a-942c-b0b1c7a6622a.jpeg)\n\n#### 4th level subheading test\n\nWhat else can I test here?\n***\nI can make things **bold** or *italic*.\n***\nI can insert an equation: $\\sum \\vec{F} = m\\vec{a}$\n\n",
+    "supporting": [
+      "from-scratch_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
