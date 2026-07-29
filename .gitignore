@@ -21,3 +21,5 @@ desktop.ini
 # NOTE: _freeze/ is intentionally NOT ignored. Quarto uses it to reuse stored
 # computational output (posts/_metadata.yml sets freeze: true), which is what
 # lets CI render without a Python/Jupyter toolchain.
+
+**/*.quarto_ipynb

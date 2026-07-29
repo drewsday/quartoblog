@@ -28,7 +28,7 @@ jobs:
         with:
           # Pinned to match the local version that produced _freeze/.
           # Bump this when you upgrade Quarto locally.
-          version: 1.7.31
+          version: 1.10.18
 
       - name: Render site
         run: quarto render
