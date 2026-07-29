@@ -1,0 +1,17 @@
+---
+title: "{{TITLE}}"
+author: "Andrew Morrison"
+date: "{{DATE}}"
+categories: []
+draft: true
+format:
+  html:
+    toc: true
+    code-fold: true
+---
+
+Write the post here.
+
+Before publishing, delete `draft: true` from the front matter above — while it is
+there the post renders locally but is kept off the site's listing. Add one or more
+`categories` too, e.g. `categories: [reading, random thoughts]`.
