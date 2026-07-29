@@ -10,6 +10,9 @@
     The file is named index.* so the published URL is /posts/<slug>/ rather than
     /posts/<slug>/<slug>.html.
 
+    From cmd.exe run new-post.cmd instead: cmd opens .ps1 files in an editor
+    rather than executing them.
+
 .PARAMETER Title
     Post title, e.g. "How I Fixed My Blog Pipeline".
 
