@@ -1,0 +1,18 @@
+---
+title: "It's been over a year...again"
+author: "Andrew Morrison"
+date: "2026-07-29"
+categories: [random thoughts]
+format:
+  html:
+    toc: true
+    code-fold: true
+---
+
+Since I've spent the better part of the summer having Claude fix up the new PICUP Trinket server, I thought I'd see if I could get Claude to help me patch up this blog system.  It's always been an issue for me to remember the workflow for posting here.  Maybe with generative AI, I can offload the recall part and just write / post stuff here.
+
+In other very cool news, the latest Minute Physics video sponsored by the Acoustical Society of America was released today:
+
+{{< video https://www.youtube.com/watch?v=sYdXa_yp0fc >}}
+
+I thought this video turned out great! I'll have to share it with my students this semester.
